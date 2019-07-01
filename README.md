@@ -7,3 +7,4 @@ Requires docker + node
 
 ```bash
 npm run test
+```

@@ -142,7 +142,6 @@ describe('api.digitransit.fi', function() {
   testProxying('api.digitransit.fi','/ui/v1/hsl/sw.js','digitransit-ui-hsl:8080');
   testProxying('api.digitransit.fi','/ui/v1/hsl-next/sw.js','digitransit-ui-hsl-next:8080');
   testProxying('api.digitransit.fi','/timetables/v1/hsl/stops/1010105.pdf','hsl-timetable-container:8080');
-  testProxying('api.digitransit.fi','/upload','gtfs-rt-server:8080');
 });
 
 describe('hsl ui', function() {
